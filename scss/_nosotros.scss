@@ -1,0 +1,29 @@
+/*NOSOTROS*/
+
+.contenido {
+	background-image: url(../img/fondo\ footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagen4 {
+	width: 80%;
+	margin-top: 3rem;
+	padding-left: 3rem;
+}
+.cont_texto {
+	margin-top: 3rem;
+	padding-right: 5rem;
+	font-family: $font-family_2;
+	font-weight: bold;
+}
+.titulodecontenido {
+	color: $color_1;
+	text-align: center;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+.parrafo1 {
+	color: $color_1;
+	text-align: center;
+	font-size: 1.5rem;
+}

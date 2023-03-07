@@ -1,0 +1,50 @@
+/*footer*/
+
+.info {
+    background-color: $background-color_5;
+    display: flex;
+    justify-content: center;
+}
+
+.info_comp {
+    color: $color_1;
+    margin-top: 3rem;
+}
+
+.ayuda {
+    color: $color_1;
+    margin-top: 3rem;
+}
+
+.contactanos {
+    color: $color_1;
+    margin-top: 3rem;
+}
+
+.camioncito {
+    width: 20%;
+}
+
+.cont-envios {
+    color: $color_1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.cont-pagos {
+    color: $color_1;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.descuento_porciento {
+    width: 100%;
+}
+
+.ultimos_descuentos {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}

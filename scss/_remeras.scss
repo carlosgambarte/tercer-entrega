@@ -1,0 +1,136 @@
+//mixin
+
+@mixin medidas {
+    width: 270px;
+	height: 350px;
+}
+
+@mixin direccion {
+    display: flex;
+	flex-direction: column;
+}
+
+@mixin color { 
+    color: $color_1;
+	text-align: center;
+}
+
+/*REMERAS*/
+
+.central {
+	margin-top: 3rem;
+	margin-left: 2rem;
+}
+.remera_uno {
+	@include medidas;
+}
+.texto_uno {
+	@include direccion;
+}
+.precio_uno {
+	@include color;
+}
+.remera_dos {
+	@include medidas;
+}
+.texto_dos {
+	@include direccion;
+}
+.precio_dos {
+	@include color;
+}
+.remera_tres {
+	@include medidas;
+}
+.texto_tres {
+	@include direccion;
+}
+.precio_tres {
+	@include color;
+}
+.remera_cuatro {
+	@include medidas;
+}
+.texto_cuatro {
+	@include direccion;
+}
+.precio_cuatro {
+	@include color;
+}
+.remera_cinco {
+	@include medidas;
+}
+.texto_cinco {
+	@include direccion;
+}
+.precio_cinco {
+	@include color;
+}
+.remera_seis {
+	@include medidas;
+}
+.texto_seis {
+	@include direccion;
+}
+.precio_seis {
+	@include color;
+}
+.remera_siete {
+	@include medidas;
+}
+.texto_siete {
+	@include direccion;
+}
+.precio_siete {
+	@include color;
+}
+.remera_ocho {
+    @include medidas;
+}
+.texto_ocho {
+	@include direccion;
+}
+.precio_ocho {
+	@include color;
+}
+.remera_nueve {
+	@include medidas;
+}
+.texto_nueve {
+	@include direccion;;
+}
+.precio_nueve {
+	@include color;
+}
+.remera_diez {
+	@include medidas;
+}
+.texto_diez {
+	@include direccion;
+}
+.precio_diez {
+	@include color;
+}
+.remera_once {
+	@include medidas;
+}
+.texto_once {
+	@include direccion;
+}
+.precio_once {
+	@include color;
+}
+.remera_doce {
+	@include medidas;
+}
+
+.texto_doce {
+	@include direccion;
+}
+.precio_doce {
+	@include color;
+}
+
+
+
+    
